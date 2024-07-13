@@ -1,5 +1,8 @@
+<script setup lang="ts">
+import { useSupabaseClient } from "#imports";
+</script>
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
